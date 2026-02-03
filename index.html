@@ -1,62 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AMARlove – Made with Love</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>AMARLOVE – Handmade Gifts Made with Love</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
+<!-- NAVBAR -->
 <header class="navbar">
-  <img src="assets/logo.png" alt="AMARlove logo" class="logo" />
+  <img src="assets/logo.png" alt="AMARLOVE Logo" class="logo">
   <nav>
-    <a href="#products">Shop</a>
+    <a href="#collections">Shop</a>
+    <a href="#reviews">Reviews</a>
     <a href="#contact">Contact</a>
   </nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-  <h1>Handmade.<br>Personalised.<br>Made with Love.</h1>
-  <p>Sustainable handcrafted gifts thoughtfully made for the people you love.</p>
-  <a href="#products" class="btn">Shop Bouquets</a>
-</section>
-
-<section id="products" class="products">
-  <h2>Best Sellers</h2>
-
-  <div class="grid">
-    <div class="card">
-      <h3>Handmade Ribbon Bouquet</h3>
-      <p>₹399 – ₹999</p>
-      <a class="btn small" href="https://wa.me/919874584803?text=I%20want%20to%20order%20Ribbon%20Bouquet">Order on WhatsApp</a>
-    </div>
-
-    <div class="card">
-      <h3>Crochet Bracelet (Single)</h3>
-      <p>₹69</p>
-      <a class="btn small" href="https://wa.me/919874584803?text=I%20want%20to%20order%20Single%20Crochet%20Bracelet">Order on WhatsApp</a>
-    </div>
-
-    <div class="card">
-      <h3>Combo Crochet Bracelets</h3>
-      <p>₹99</p>
-      <a class="btn small" href="https://wa.me/919874584803?text=I%20want%20to%20order%20Combo%20Bracelets">Order on WhatsApp</a>
-    </div>
+  <h1>Handmade Gifts<br>That Stay Forever</h1>
+  <p>Personalised ribbon bouquets, bracelets & gifts.<br>Lovingly handmade in Kolkata.</p>
+  <div class="hero-btns">
+    <a href="#products" class="btn primary">Shop Best Sellers</a>
+    <a href="https://wa.me/919874584803" class="btn secondary">Order on WhatsApp</a>
   </div>
 </section>
 
-<footer id="contact">
-  <p><strong>Contact</strong></p>
-  <p>📞 +91 98745 84803 / 74393 48001</p>
-  <p>📸 Instagram: @amarlove.in</p>
-  <p>📍 Kolkata, West Bengal</p>
+<!-- COLLECTIONS -->
+<section id="collections" class="collections">
+  <h2>Shop by Category</h2>
+  <div class="collection-grid">
+    <div class="collection-card">Bouquets</div>
+    <div class="collection-card">Bracelets</div>
+    <div class="collection-card">Gift Boxes</div>
+    <div class="collection-card">Custom Orders</div>
+  </div>
+</section>
 
-  <p class="policy">UPI only · Custom items non-returnable · Damage proof within 24h</p>
+<!-- PRODUCTS -->
+<section id="products" class="products">
+  <h2>Best Sellers</h2>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <img src="assets/bouquet1.jpg" alt="Ribbon Bouquet">
+      <h3>Handmade Ribbon Bouquet</h3>
+      <p class="price">₹399 – ₹999</p>
+      <p class="variant">Colours: Red, Pink, Yellow, Blue, White</p>
+      <p class="addon">✨ Fairy lights add-on @ ₹99</p>
+      <a href="https://wa.me/919874584803?text=I%20want%20to%20order%20a%20Ribbon%20Bouquet"
+         class="btn primary">Order on WhatsApp</a>
+    </div>
+
+    <div class="product-card">
+      <img src="assets/bracelet.jpg" alt="Crochet Bracelet">
+      <h3>Crochet Bracelet</h3>
+      <p class="price">₹199 – ₹349</p>
+      <p class="variant">Colours: Purple, Red, Black, Yellow</p>
+      <a href="https://wa.me/919874584803?text=I%20want%20to%20order%20a%20Bracelet"
+         class="btn primary">Order on WhatsApp</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY AMARLOVE -->
+<section class="why">
+  <h2>Why AMARLOVE?</h2>
+  <ul>
+    <li>🤍 100% handmade & personalised</li>
+    <li>🎁 Gifts that don’t fade or wither</li>
+    <li>📍 Made locally in Kolkata</li>
+    <li>💬 Direct WhatsApp ordering</li>
+  </ul>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="reviews">
+  <h2>What Customers Say</h2>
+
+  <div class="review-grid">
+
+    <div class="review-card">
+      <p class="stars">★★★★★</p>
+      <p>“He makes unbelievably real looking rose bouquets. Real roses will wither away but these ribbon roses stay forever.”</p>
+      <span>— Bithi Sen</span>
+    </div>
+
+    <div class="review-card">
+      <p class="stars">★★★★★</p>
+      <p>“Khub sundor, amar gf ekdom surprised. Sob bhalobasa er poripurno gift.”</p>
+      <span>— Aniket Sen</span>
+    </div>
+
+    <div class="review-card">
+      <p class="stars">★★★★★</p>
+      <p>“Saw them make the products in front of me. Looking forward to buying again.”</p>
+      <span>— Shirshendu Das</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Order Now</h2>
+  <p>DM us on Instagram or order directly on WhatsApp.</p>
+  <a href="https://wa.me/919874584803" class="btn primary">WhatsApp: 9874584803</a>
+  <p class="small">📍 Kolkata | Instagram: @amarlove.in</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 AMARLOVE • Handmade with love</p>
 </footer>
 
 </body>
-      </html>
+</html>
